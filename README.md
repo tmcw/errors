@@ -27,7 +27,7 @@ misusing an API, like calling `fs.readFileSync()` in node.js.
 
 ## [RangeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
 
-Occurs when you create and Array with an invalid length, but also occurs
+Occurs when you create an `Array` with an invalid length, but also occurs
 on simple infinitely recursive loops in node.js.
 
 ## [URIError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError)

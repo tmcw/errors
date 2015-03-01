@@ -1,6 +1,8 @@
-# error-types
+# [error-types](http://www.macwright.org/2015/02/28/errors.html)
 
 Brief examples of types of errors in JavaScript.
+
+See the [/types](/types) directory for examples of each error type.
 
 ## [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 

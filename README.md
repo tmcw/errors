@@ -36,3 +36,14 @@ on simple infinitely recursive loops in node.js.
 
 Occurs when you try to decode or encode an invalid URI with a built-in function
 like decodeURI, encodeURI, decodeURIComponent, or encodeURIComponent.
+
+## [InternalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError)
+
+This is an error triggered by infinite recursion in Firefox only: other browsers don't implement
+InternalError and produce a RangeError instead for infinite recursion.
+
+Trigger:
+
+```js
+(function a() { return a(); })()
+```
